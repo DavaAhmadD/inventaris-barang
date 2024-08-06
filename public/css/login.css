@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(34, 46, 60, .05);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card h4 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.tombolLogin {
+    background-color: rgba(34, 46, 60, .8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.tombolLogin:hover {
+    background-color: rgba(34, 46, 60, 1);
+}
+
+.block {
+    margin-top: 15px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
